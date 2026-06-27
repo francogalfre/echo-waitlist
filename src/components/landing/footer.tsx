@@ -1,6 +1,7 @@
 "use client";
 
 import { useMemo } from "react";
+import { motion } from "motion/react";
 import { useLanguage } from "~/providers/language-provider";
 
 export default function Footer() {
@@ -8,7 +9,13 @@ export default function Footer() {
 	const { t } = useLanguage();
 
 	return (
-		<footer className="flex flex-col justify-center items-center gap-4 pb-4 pt-8">
+		<motion.footer
+			className="flex flex-col justify-center items-center gap-4 pb-4 pt-8"
+			initial={{ opacity: 0 }}
+			whileInView={{ opacity: 1 }}
+			viewport={{ once: true }}
+			transition={{ duration: 0.6 }}
+		>
 			<div className="flex flex-row items-center gap-4">
 				<a
 					href="#"
@@ -29,6 +36,6 @@ export default function Footer() {
 					{t("footer.copyright", { year: String(year) })}
 				</p>
 			</div>
-		</footer>
+		</motion.footer>
 	);
 }
