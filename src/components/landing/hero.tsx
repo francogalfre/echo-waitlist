@@ -4,7 +4,6 @@ import { useMemo, useState } from "react";
 import { motion } from "motion/react";
 
 import People from "./people";
-import imagotipoAccent from "../../app/assets/imagotipo-accent.png";
 import Form from "./form";
 import { useLanguage } from "~/providers/language-provider";
 
@@ -36,7 +35,7 @@ export default function Hero({ waitlistPeople }: { waitlistPeople: number }) {
                 variants={fadeUp}
                 custom={0}
             >
-                <img src={imagotipoAccent} alt="Echo" className="w-48 h-auto" />
+                <img src="/imagotipo-accent.png" alt="Echo" className="w-48 h-auto" />
                 <div className="flex items-center gap-4 rounded-full border border-border px-4 py-1 relative">
                     <span className="relative flex h-2 w-2">
                         <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-accent opacity-75" />
