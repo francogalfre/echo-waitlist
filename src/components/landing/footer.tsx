@@ -18,17 +18,21 @@ export default function Footer() {
 		>
 			<div className="flex flex-row items-center gap-4">
 				<a
-					href="#"
+					href="https://linkedin.com/in/francogalfre"
+					target="_blank"
+					rel="noopener noreferrer"
 					className="text-sm text-muted-foreground hover:text-foreground transition-colors"
 				>
-					{t("footer.privacy")}
+					LinkedIn
 				</a>
 				<span className="text-muted-foreground">·</span>
 				<a
-					href="#"
+					href="https://x.com/francogalfredev"
+					target="_blank"
+					rel="noopener noreferrer"
 					className="text-sm text-muted-foreground hover:text-foreground transition-colors"
 				>
-					{t("footer.terms")}
+					X / Twitter
 				</a>
 			</div>
 			<div>

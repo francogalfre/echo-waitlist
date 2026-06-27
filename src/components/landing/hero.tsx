@@ -27,7 +27,7 @@ export default function Hero({ waitlistPeople }: { waitlistPeople: number }) {
     const { t } = useLanguage();
 
     return (
-        <div className="flex flex-col items-center justify-center gap-6 min-h-screen px-4">
+        <div className="flex flex-col items-center justify-center gap-6 pb-32 min-h-screen px-4">
             <motion.div
                 className="flex flex-col items-center justify-center gap-6 mb-6"
                 initial="hidden"
@@ -35,7 +35,7 @@ export default function Hero({ waitlistPeople }: { waitlistPeople: number }) {
                 variants={fadeUp}
                 custom={0}
             >
-                <img src="/imagotipo-accent.png" alt="Echo" className="w-48 h-auto" />
+                <img src="/imagotipo-accent.png" alt="Echo" className="w-24 h-auto" />
                 <div className="flex items-center gap-4 rounded-full border border-border px-4 py-1 relative">
                     <span className="relative flex h-2 w-2">
                         <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-accent opacity-75" />
