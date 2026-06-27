@@ -1,0 +1,63 @@
+{
+    "hero": {
+        "badge": "Disponible a principios de {year}",
+        "title_success": "Ya estás en la lista de espera",
+        "title": "Acceso anticipado",
+        "description_success": "Has asegurado tu lugar. Te avisaremos cuando sea tu turno para sumarte.",
+        "description": "Sé de los primeros en experimentar la recolección inteligente de feedback. Únete a la lista de espera y sé el primero en enterarte cuando lancemos."
+    },
+    "form": {
+        "email_placeholder": "Email",
+        "name_placeholder": "Nombre (opcional)",
+        "continue": "Continuar",
+        "join_waitlist": "Unirme a la lista",
+        "joining": "Uniendo...",
+        "share_title": "Comparte tu link para saltar la fila",
+        "copy": "Copiar",
+        "join_another": "Unir con otro email",
+        "error_email": "Por favor ingresa un email válido",
+        "error_rate": "Demasiados intentos. Intenta más tarde.",
+        "error_generic": "Algo salió mal. Intenta de nuevo.",
+        "success_toast": "¡Estás en la lista de espera!"
+    },
+    "people": {
+        "join": "Únete a",
+        "others": "otros en la lista de espera"
+    },
+    "faq": {
+        "title": "Preguntas frecuentes",
+        "description": "Todo lo que necesitas saber sobre Echo. Encuentra respuestas a las preguntas más comunes.",
+        "items": [
+            {
+                "question": "¿Qué es Echo?",
+                "answer": "Echo es una plataforma que te permite recolectar, analizar y mostrar feedback de usuarios con una sola API. Crea páginas de feedback, utiliza nuestro widget o integra nuestra API directamente en tu producto."
+            },
+            {
+                "question": "¿Cómo funciona el widget de feedback?",
+                "answer": "El widget de Echo se integra fácilmente en tu sitio web o aplicación. Los usuarios pueden dejar feedback directamente desde tu producto, y tú puedes gestionar todo desde un solo dashboard."
+            },
+            {
+                "question": "¿Qué tipo de insights genera la IA?",
+                "answer": "Nuestra IA analiza automáticamente el feedback para detectar tendencias, sentiment, temas recurrentes y insights accionables. Obtienes resúmenes automáticos que te ayudan a entender qué quieren tus usuarios."
+            },
+            {
+                "question": "¿Cuándo estará disponible Echo?",
+                "answer": "Estamos trabajando duro para lanzar Echo pronto. Al unirte a la lista de espera, serás de los primeros en acceder cuando esté disponible."
+            },
+            {
+                "question": "¿Es gratis?",
+                "answer": "Sí, Echo tendrá un plan gratuito. También ofreceremos planes premium con funcionalidades avanzadas de IA y mayor volumen de feedback."
+            }
+        ]
+    },
+    "footer": {
+        "copyright": "© {year} Echo. Todos los derechos reservados.",
+        "privacy": "Privacidad",
+        "terms": "Términos"
+    },
+    "seo": {
+        "title": "Echo | Lista de espera - Recolecta y analiza feedback con IA",
+        "description": "Echo es la plataforma inteligente para recolectar, analizar y mostrar feedback de usuarios. Crea páginas de feedback, utiliza nuestro widget o integra nuestra API. Potenciado por IA para detectar insights automáticos.",
+        "keywords": "feedback, user feedback, feedback widget, feedback API, AI analytics, user insights, product feedback, echo"
+    }
+}

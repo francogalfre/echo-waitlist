@@ -20,45 +20,45 @@ const WaitlistEmail = ({ userFirstname }: { userFirstname: string }) => {
 		<Html>
 			<Tailwind>
 				<Head>
-					<title>Welcome to Waitly</title>
-					<Preview>Thanks for joining our waitlist! We'll keep you in the loop.</Preview>
+					<title>Bienvenido a Echo</title>
+					<Preview>Gracias por unirte a nuestra lista de espera. Te mantendremos al tanto.</Preview>
 					<style>
 						{`
-              @import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;700&display=swap');
+              @import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&display=swap');
             `}
 					</style>
 				</Head>
-				<Body className="bg-[#09090B] py-[40px]" style={{ fontFamily: "'Inter Tight', sans-serif" }}>
-					<Container className="bg-[#18181B] rounded-[8px] mx-auto p-[32px] max-w-[600px]">
+				<Body className="bg-[#F8F7F4] py-[40px]" style={{ fontFamily: "'Instrument Sans', sans-serif" }}>
+					<Container className="bg-white rounded-[12px] mx-auto p-[32px] max-w-[600px]">
 						<Section className="mt-[16px] text-center">
-							<Text className="text-[28px] font-bold text-white m-0">
-								Welcome to <span className="text-[#DFFF1A]">Waitly</span>
+							<Text className="text-[28px] font-bold text-[#1A1A1A] m-0">
+								Bienvenido a <span className="text-[#6B5CE7]">Echo</span>
 							</Text>
 
-							<Text className="text-[18px] text-[#A1A1AA] mt-[16px] mb-[16px]">
-								We're thrilled to have you join our waitlist
+							<Text className="text-[18px] text-[#71717A] mt-[16px] mb-[16px]">
+								¡Estamos encantados de tenerte en nuestra lista de espera!
 							</Text>
 
-							<Hr className="border-solid border-[#27272A] my-[16px] w-[80px] mx-auto" />
+							<Hr className="border-solid border-[#E5E5E5] my-[16px] w-[80px] mx-auto" />
 						</Section>
 
 						<Section>
-							<Text className="text-[16px] leading-[24px] text-white mt-[32px]">
-								Hi {userFirstname},
+							<Text className="text-[16px] leading-[24px] text-[#1A1A1A] mt-[32px]">
+								Hola {userFirstname},
 							</Text>
 
-							<Text className="text-[16px] leading-[24px] text-[#E4E4E7]">
-								Thanks for joining the waitlist for our Next.js + Notion CMS template! We're a small team at Idee8 working to help businesses like yours grow online, and we couldn't be more excited to have you with us.
+							<Text className="text-[16px] leading-[24px] text-[#52525B]">
+								Gracias por unirte a la lista de espera de Echo. Somos un equipo pequeño trabajando duro para crear la plataforma inteligente de feedback que los founders necesitan.
 							</Text>
 
-							<Text className="text-[16px] leading-[24px] text-[#E4E4E7]">
-								I'll personally keep you updated on our progress and let you know the moment it's ready for you. Got questions or ideas in the meantime? Just hit reply – I read every email and would love to hear from you.
+							<Text className="text-[16px] leading-[24px] text-[#52525B]">
+								Te mantendremos personalmente al tanto de nuestro progreso y te avisaremos en el momento en que esté listo para ti. ¿Tienes preguntas o ideas? Simplemente responde a este email — leo cada mensaje y me encantaría saber de ti.
 							</Text>
 
 							<Section className="my-[32px] text-center">
 								<Button
-									className="bg-[#DFFF1A] text-[#09090B] font-bold py-[12px] px-[24px] rounded-[12px] no-underline text-center box-border"
-									href="https://cal.com/idee8/quick-chat"
+									className="bg-[#6B5CE7] text-white font-bold py-[12px] px-[24px] rounded-[12px] no-underline text-center box-border"
+									href="https://echo-waitlist.vercel.app"
 								>
 									<span style={{ display: 'inline-flex', alignItems: 'center' }}>
 										<svg
@@ -68,52 +68,41 @@ const WaitlistEmail = ({ userFirstname }: { userFirstname: string }) => {
 											fill="none"
 											style={{ marginRight: '8px' }}
 										>
-											<title>Calendar</title>
-											<path d="M19 4H5C3.89543 4 3 4.89543 3 6V20C3 21.1046 3.89543 22 5 22H19C20.1046 22 21 21.1046 21 20V6C21 4.89543 20.1046 4 19 4Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-											<path d="M16 2V6" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-											<path d="M8 2V6" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-											<path d="M3 10H21" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-											<path d="M8 14H8.01" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-											<path d="M12 14H12.01" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-											<path d="M16 14H16.01" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-											<path d="M8 18H8.01" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-											<path d="M12 18H12.01" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-											<path d="M16 18H16.01" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+											<title>Arrow</title>
+											<path d="M5 12H19" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+											<path d="M12 5L19 12L12 19" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
 										</svg>
-										Book a call
+										Visitar Echo
 									</span>
 								</Button>
 							</Section>
 
-							<Text className="text-[16px] leading-[24px] text-[#E4E4E7]">
-								Want to see what we're up to? Follow us at <Link href="https://twitter.com/Idee8Agency" className="text-[#DFFF1A] underline">@Idee8Agency</Link> for behind-the-scenes updates and early previews.
+							<Text className="text-[16px] leading-[24px] text-[#52525B]">
+								Síguenos para ver las últimas novedades y vistas previas tempranas.
 							</Text>
 
-							<Text className="text-[16px] leading-[24px] text-[#E4E4E7] mt-[24px]">
-								Cheers,
+							<Text className="text-[16px] leading-[24px] text-[#52525B] mt-[24px]">
+								Saludos,
 							</Text>
 
-							<Text className="text-[16px] font-bold text-white mb-[32px]">
-								The Idee8 Team
+							<Text className="text-[16px] font-bold text-[#1A1A1A] mb-[32px]">
+								Equipo Echo
 							</Text>
 						</Section>
 
-						<Hr className="border-solid border-[#27272A] my-[24px]" />
+						<Hr className="border-solid border-[#E5E5E5] my-[24px]" />
 
 						<Section>
-							<Text className="text-[12px] text-[#71717A] text-center m-0">
-								© {currentYear} Idee8 Agency. All rights reserved.
+							<Text className="text-[12px] text-[#A1A1AA] text-center m-0">
+								© {currentYear} Echo. Todos los derechos reservados.
 							</Text>
-							<Text className="text-[12px] text-[#71717A] text-center m-0">
-								123 Digital Avenue, Suite 101, Kigali, Rwanda
-							</Text>
-							<Text className="text-[12px] text-[#71717A] text-center mt-[16px]">
-								<Link href="https://idee8.com/unsubscribe" className="text-[#DFFF1A]">
-									Unsubscribe
+							<Text className="text-[12px] text-[#A1A1AA] text-center mt-[16px]">
+								<Link href="https://echo-waitlist.vercel.app/unsubscribe" className="text-[#6B5CE7]">
+									Cancelar suscripción
 								</Link>{' '}
 								•{' '}
-								<Link href="https://idee8.com/privacy" className="text-[#DFFF1A]">
-									Privacy Policy
+								<Link href="https://echo-waitlist.vercel.app/privacy" className="text-[#6B5CE7]">
+									Política de privacidad
 								</Link>
 							</Text>
 						</Section>

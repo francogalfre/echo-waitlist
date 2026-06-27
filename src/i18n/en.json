@@ -1,0 +1,63 @@
+{
+  "hero": {
+    "badge": "Available early {year}",
+    "title_success": "You're on the waitlist",
+    "title": "Get early access",
+    "description_success": "You've successfully secured your spot. We'll notify you when it's your turn to join.",
+    "description": "Be among the first to experience intelligent feedback collection. Join the waitlist to get notified when we launch."
+  },
+  "form": {
+    "email_placeholder": "Email",
+    "name_placeholder": "Name (optional)",
+    "continue": "Continue",
+    "join_waitlist": "Join Waitlist",
+    "joining": "Joining...",
+    "share_title": "Share your link to skip the line",
+    "copy": "Copy",
+    "join_another": "Join with another email",
+    "error_email": "Please enter a valid email address",
+    "error_rate": "Too many attempts. Try again later.",
+    "error_generic": "Something went wrong. Try again.",
+    "success_toast": "You're on the waitlist!"
+  },
+  "people": {
+    "join": "Join",
+    "others": "others on the waitlist"
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "description": "Everything you need to know about Echo. Find answers to common questions.",
+    "items": [
+      {
+        "question": "What is Echo?",
+        "answer": "Echo is a platform that lets you collect, analyze, and showcase user feedback with one API. Create feedback pages, use our widget, or integrate our API directly into your product."
+      },
+      {
+        "question": "How does the feedback widget work?",
+        "answer": "Echo's widget integrates seamlessly into your website or app. Users can leave feedback directly from your product, and you can manage everything from a single dashboard."
+      },
+      {
+        "question": "What kind of insights does the AI generate?",
+        "answer": "Our AI automatically analyzes feedback to detect trends, sentiment, recurring themes, and actionable insights. You get automatic summaries that help you understand what your users want."
+      },
+      {
+        "question": "When will Echo be available?",
+        "answer": "We're working hard to launch Echo soon. By joining the waitlist, you'll be among the first to access it when it's available."
+      },
+      {
+        "question": "Is it free?",
+        "answer": "Yes, Echo will have a free plan to get started. We'll also offer premium plans with advanced AI features and higher feedback volumes."
+      }
+    ]
+  },
+  "footer": {
+    "copyright": "© {year} Echo. All rights reserved.",
+    "privacy": "Privacy",
+    "terms": "Terms"
+  },
+  "seo": {
+    "title": "Echo | Waitlist - Collect and analyze feedback with AI",
+    "description": "Echo is the intelligent platform to collect, analyze, and showcase user feedback. Create feedback pages, use our widget, or integrate our API. Powered by AI for automatic insights.",
+    "keywords": "feedback, user feedback, feedback widget, feedback API, AI analytics, user insights, product feedback, echo"
+  }
+}
