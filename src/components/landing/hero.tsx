@@ -26,7 +26,7 @@ export default function Hero({ waitlistPeople }: { waitlistPeople: number }) {
     const { t } = useLanguage();
 
     return (
-        <div className="flex flex-col items-center justify-center gap-2 min-h-screen pb-12 px-5 sm:px-6 md:px-8">
+        <div className="flex flex-col items-center justify-center gap-2 min-h-screen py-16 sm:py-20 md:py-24 px-5 sm:px-6 md:px-8">
             <motion.div
                 className="flex flex-col items-center justify-center gap-6 mb-8"
                 initial="hidden"

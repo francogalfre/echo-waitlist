@@ -26,10 +26,10 @@ export default function Features() {
 
     return (
         <section>
-            <div className="py-10 sm:py-12 md:py-16">
+            <div className="py-16 sm:py-20 md:py-24">
                 <div className="mx-auto w-full max-w-3xl px-5 sm:px-6 md:px-8">
                     <motion.h2
-                        className="text-xl sm:text-2xl md:text-3xl font-semibold text-foreground whitespace-pre-line"
+                        className="text-xl sm:text-2xl md:text-3xl font-medium text-foreground whitespace-pre-line"
                         initial="hidden"
                         whileInView="visible"
                         viewport={{ once: true }}
@@ -51,7 +51,7 @@ export default function Features() {
                         <img
                             src="/features-image.png"
                             alt="Echo features"
-                            className="w-full h-auto"
+                            className="w-full h-72 object-cover"
                         />
                     </motion.div>
 

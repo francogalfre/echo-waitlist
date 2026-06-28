@@ -25,7 +25,7 @@ export default function Faq() {
 
 	return (
 		<motion.div
-			className="flex flex-col items-center justify-center gap-6 py-10 px-5 sm:px-6 md:px-8"
+			className="flex flex-col items-center justify-center gap-6 py-16 sm:py-20 md:py-24 px-5 sm:px-6 md:px-8"
 			initial="hidden"
 			whileInView="visible"
 			viewport={{ once: true, margin: "-100px" }}
