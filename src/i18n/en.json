@@ -2,9 +2,9 @@
     "hero": {
         "badge": "Early access",
         "title_success": "You're in",
-        "title": "Collect feedback. Understand your users. Build better products.",
+        "title": "Feedback infrastructure for devs",
         "description_success": "Done. We'll let you know when your account is ready.",
-        "description": "The open feedback infrastructure for developers. Collect from anywhere, analyze with AI, showcase everywhere. Between Google Forms and Canny — finally, the middle ground."
+        "description": "Collect, analyze, and showcase user feedback. API, widget, or forms. Powered by AI."
     },
     "form": {
         "email_placeholder": "you@example.com",
