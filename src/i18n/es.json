@@ -9,7 +9,7 @@
     "form": {
         "email_placeholder": "tu@email.com",
         "name_placeholder": "Tu nombre (opcional)",
-        "continue": "Quiero acceso",
+        "continue": "Continuar",
         "join_waitlist": "Unirme a la lista",
         "joining": "Uniendo...",
         "share_title": "Compartí tu link para saltar la fila",
