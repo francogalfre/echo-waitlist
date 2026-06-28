@@ -29,22 +29,14 @@ export default function Hero({ waitlistPeople }: { waitlistPeople: number }) {
     return (
         <div className="flex flex-col items-center justify-center gap-2 pb-32 min-h-screen px-4">
             <motion.div
-                className="flex flex-col items-center justify-center gap-6 mb-6"
+                className="flex flex-col items-center justify-center gap-6 mb-8"
                 initial="hidden"
                 animate="visible"
                 variants={fadeUp}
                 custom={0}
             >
                 <img src="/imagotipo-accent.png" alt="Echo" className="w-24 h-auto" />
-                <div className="flex items-center gap-4 rounded-full border border-border px-4 py-1 relative">
-                    <span className="relative flex h-2 w-2">
-                        <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-accent opacity-75" />
-                        <span className="relative inline-flex rounded-full h-2 w-2 bg-accent" />
-                    </span>
-                    <p className="uppercase text-sm font-medium">
-                        {t("hero.badge", { year: String(year) })}
-                    </p>
-                </div>
+
             </motion.div>
 
             <motion.div
@@ -54,7 +46,7 @@ export default function Hero({ waitlistPeople }: { waitlistPeople: number }) {
                 variants={fadeUp}
                 custom={1}
             >
-                <h1 className="text-4xl md:text-5xl font-semibold text-foreground text-center w-full whitespace-pre-line">
+                <h1 className="text-4xl md:text-5xl font-medium text-foreground text-center w-full whitespace-pre-line">
                     {isSuccess ? t("hero.title_success") : t("hero.title")}
                 </h1>
                 <p className="text-base text-md text-muted-foreground text-center align-middle justify-center max-w-lg">
