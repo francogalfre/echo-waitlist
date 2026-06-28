@@ -20,11 +20,12 @@ const fadeUp = {
 };
 
 export default function Faq() {
-	const { t, tArray } = useLanguage();
+	const { t, tArray, locale } = useLanguage();
 	const faqItems = tArray("faq.items") as Array<{ question: string; answer: string }>;
 
 	return (
 		<motion.div
+			key={`faq-${locale}`}
 			className="flex flex-col items-center justify-center gap-6 py-16 sm:py-20 md:py-24 px-5 sm:px-6 md:px-8"
 			initial="hidden"
 			whileInView="visible"
@@ -48,7 +49,7 @@ export default function Faq() {
 					className="w-full flex flex-col gap-4"
 				>
 					{faqItems.map((item, index) => (
-						<AccordionItem key={`faq-${index + 1}`} value={`item-${index + 1}`}>
+						<AccordionItem key={`faq-${index + 1}-${locale}`} value={`item-${index + 1}`}>
 							<AccordionTrigger className="hover:no-underline">
 								{item.question}
 							</AccordionTrigger>

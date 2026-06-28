@@ -18,7 +18,7 @@ const fadeUp = {
 };
 
 export default function Features() {
-    const { t, tArray } = useLanguage();
+    const { t, tArray, locale } = useLanguage();
     const features = tArray("features.items") as Array<{
         title: string;
         description: string;
@@ -29,6 +29,7 @@ export default function Features() {
             <div className="py-16 sm:py-20 md:py-24">
                 <div className="mx-auto w-full max-w-3xl px-5 sm:px-6 md:px-8">
                     <motion.h2
+                        key={`title-${locale}`}
                         className="text-xl sm:text-2xl md:text-3xl font-medium text-foreground whitespace-pre-line"
                         initial="hidden"
                         whileInView="visible"
@@ -41,6 +42,7 @@ export default function Features() {
                     </motion.h2>
 
                     <motion.div
+                        key={`image-${locale}`}
                         className="mt-8 sm:mt-10 md:mt-12 rounded-2xl border border-border bg-secondary/50 overflow-hidden"
                         initial="hidden"
                         whileInView="visible"
@@ -56,6 +58,7 @@ export default function Features() {
                     </motion.div>
 
                     <motion.div
+                        key={`grid-${locale}`}
                         className="mt-8 sm:mt-10 md:mt-12 grid grid-cols-1 sm:grid-cols-3 gap-6 sm:gap-8"
                         initial="hidden"
                         whileInView="visible"
@@ -66,7 +69,7 @@ export default function Features() {
                     >
                         {features.map((feature, index) => (
                             <motion.div
-                                key={feature.title}
+                                key={`${feature.title}-${locale}`}
                                 className="space-y-2"
                                 variants={fadeUp}
                                 custom={index + 2}
