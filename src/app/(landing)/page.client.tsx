@@ -4,6 +4,7 @@ import { useRef } from "react";
 
 // import Demo from "~/components/landing/demo";
 import Faq from "~/components/landing/faq";
+import Features from "~/components/landing/features";
 import Footer from "~/components/landing/footer";
 import Hero from "~/components/landing/hero";
 import { Confetti, type ConfettiRef } from "~/components/magicui/confetti";
@@ -22,6 +23,7 @@ export function LandingPage({ waitlistPeople }: { waitlistPeople: number }) {
 
             {/* <Demo videoSrc="/demo.mp4" thumbnailSrc="/demo.png" /> */}
 
+            <Features />
             <Faq />
             <Footer />
         </main>

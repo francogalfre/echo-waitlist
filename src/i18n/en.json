@@ -24,6 +24,26 @@
         "join": "Join",
         "others": "people on the list"
     },
+    "features": {
+        "title": "Everything you need",
+        "items": [
+            {
+                "icon": "collect",
+                "title": "Collect",
+                "description": "Forms, embeddable widget, or API. Choose how you reach your users."
+            },
+            {
+                "icon": "analyze",
+                "title": "Analyze",
+                "description": "AI that detects sentiment, recurring bugs, and feature requests. All categorized."
+            },
+            {
+                "icon": "showcase",
+                "title": "Showcase",
+                "description": "Share public feedback boards. Your users see that you listen."
+            }
+        ]
+    },
     "faq": {
         "title": "Frequently Asked Questions",
         "description": "Quick answers before you sign up.",

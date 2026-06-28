@@ -24,6 +24,26 @@
         "join": "Unite a",
         "others": "personas en la lista"
     },
+    "features": {
+        "title": "Todo lo que necesitás",
+        "items": [
+            {
+                "icon": "collect",
+                "title": "Recolectá",
+                "description": "Forms, widget embeddable o API. Elegí cómo llegás a tus usuarios."
+            },
+            {
+                "icon": "analyze",
+                "title": "Analizá",
+                "description": "IA que detecta sentimiento, bugs recurrentes y feature requests. Todo categorizado."
+            },
+            {
+                "icon": "showcase",
+                "title": "Mostrá",
+                "description": "Compartí boards públicos de feedback. Tus usuarios ven que los escuchás."
+            }
+        ]
+    },
     "faq": {
         "title": "Preguntas frecuentes",
         "description": "Resolvé tus dudas antes de sumarte.",
