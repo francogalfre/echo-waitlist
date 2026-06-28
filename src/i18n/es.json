@@ -29,7 +29,7 @@
         "title_suffix": "escuchar a tus usuarios.",
         "items": [
             {
-                "title": "Recolectá desde cualquier lado",
+                "title": "Recolectá feedback desde cualquier lado",
                 "description": "Forms embebidos, widget flotante o API directa. Elegís cómo llegás a tus usuarios."
             },
             {
@@ -37,7 +37,7 @@
                 "description": "Detecta sentiment, bugs recurrentes y feature requests. Todo categorizado."
             },
             {
-                "title": "Mostrá que los escuchás",
+                "title": "Mostrá que los escuchás siempre",
                 "description": "Boards públicos de feedback que tus usuarios pueden ver."
             }
         ]

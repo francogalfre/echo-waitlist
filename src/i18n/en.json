@@ -29,7 +29,7 @@
         "title_suffix": "listen to your users.",
         "items": [
             {
-                "title": "Collect from everywhere",
+                "title": "Collect feedback from everywhere",
                 "description": "Embedded forms, floating widget, or direct API. You choose how to reach users."
             },
             {
@@ -37,7 +37,7 @@
                 "description": "Detects sentiment, recurring bugs, and feature requests. All categorized."
             },
             {
-                "title": "Show them you listen",
+                "title": "Show them you always listen",
                 "description": "Public feedback boards your users can see."
             }
         ]
