@@ -72,7 +72,7 @@
         "copyright": "© {year} Echo. Todos los derechos reservados."
     },
     "seo": {
-        "title": "Echo — Feedback infrastructure para developers",
+        "title": "Echo — Unite a la waitlist",
         "description": "Recolectá feedback de usuarios via API, widget o formularios. Análisis de sentiment con IA. La alternativa abierta a Canny.",
         "keywords": "feedback, user feedback, feedback widget, feedback API, AI analytics, user insights, product feedback, echo, canny alternative"
     }
