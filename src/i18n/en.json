@@ -29,16 +29,16 @@
         "title_suffix": "listen to your users.",
         "items": [
             {
-                "title": "Collect feedback from everywhere",
-                "description": "Embedded forms, floating widget, or direct API. Choose how you reach your users without changing your stack."
+                "title": "Collect from everywhere",
+                "description": "Embedded forms, floating widget, or direct API. You choose how to reach users."
             },
             {
-                "title": "AI does the heavy lifting",
-                "description": "Sentiment analysis, recurring bug detection, and feature requests. All categorized and prioritized automatically."
+                "title": "AI analyzes everything for you",
+                "description": "Detects sentiment, recurring bugs, and feature requests. All categorized."
             },
             {
                 "title": "Show them you listen",
-                "description": "Public feedback boards your users can see. Transparency that builds trust and engagement."
+                "description": "Public feedback boards your users can see."
             }
         ]
     },

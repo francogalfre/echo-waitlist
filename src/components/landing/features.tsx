@@ -29,14 +29,14 @@ export default function Features() {
             <div className="py-10 sm:py-12 md:py-16">
                 <div className="mx-auto w-full max-w-3xl px-5 sm:px-6 md:px-8">
                     <motion.h2
-                        className="text-xl sm:text-2xl md:text-3xl font-semibold text-foreground"
+                        className="text-xl sm:text-2xl md:text-3xl font-semibold text-foreground whitespace-pre-line"
                         initial="hidden"
                         whileInView="visible"
                         viewport={{ once: true }}
                         variants={fadeUp}
                         custom={0}
                     >
-                        <span className="text-muted-foreground">{t("features.subtitle")}</span>{" "}
+                        <span className="text-muted-foreground">{t("features.subtitle")}</span>{"\n"}
                         {t("features.title_suffix")}
                     </motion.h2>
 
@@ -48,9 +48,11 @@ export default function Features() {
                         variants={fadeUp}
                         custom={1}
                     >
-                        <div className="aspect-video w-full flex items-center justify-center text-muted-foreground text-sm">
-                            Imagen próximamente
-                        </div>
+                        <img
+                            src="/features-image.png"
+                            alt="Echo features"
+                            className="w-full h-auto"
+                        />
                     </motion.div>
 
                     <motion.div
@@ -69,7 +71,7 @@ export default function Features() {
                                 variants={fadeUp}
                                 custom={index + 2}
                             >
-                                <h3 className="text-base sm:text-lg font-medium text-foreground">
+                                <h3 className="text-base sm:text-lg font-medium text-foreground leading-tight">
                                     {feature.title}
                                 </h3>
                                 <p className="text-sm text-muted-foreground">

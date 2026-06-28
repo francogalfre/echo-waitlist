@@ -29,16 +29,16 @@
         "title_suffix": "escuchar a tus usuarios.",
         "items": [
             {
-                "title": "Recolectá feedback de cualquier lado",
-                "description": "Forms embebidos, widget flotante o API directa. Elegí cómo llegás a tus usuarios sin cambiar tu stack."
+                "title": "Recolectá desde cualquier lado",
+                "description": "Forms embebidos, widget flotante o API directa. Elegís cómo llegás a tus usuarios."
             },
             {
-                "title": "La IA hace el trabajo pesado",
-                "description": "Sentiment analysis, detección de bugs recurrentes y feature requests. Todo categorizado y priorizado automáticamente."
+                "title": "La IA analiza todo por vos",
+                "description": "Detecta sentiment, bugs recurrentes y feature requests. Todo categorizado."
             },
             {
                 "title": "Mostrá que los escuchás",
-                "description": "Boards públicos de feedback que tus usuarios pueden ver. Transparencia que genera confianza y engagement."
+                "description": "Boards públicos de feedback que tus usuarios pueden ver."
             }
         ]
     },
