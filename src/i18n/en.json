@@ -30,15 +30,15 @@
         "items": [
             {
                 "title": "Collect feedback from everywhere",
-                "description": "Embedded forms, floating widget, or direct API. You choose how to reach users."
+                "description": "Custom pages, floating widget, or API. Everything saved to your dashboard."
             },
             {
                 "title": "AI analyzes everything for you",
-                "description": "Detects sentiment, recurring bugs, and feature requests. All categorized."
+                "description": "Summaries, specific insights, and automatic sentiment on every entry."
             },
             {
                 "title": "Show them you always listen",
-                "description": "Public feedback boards your users can see."
+                "description": "Display feedback on your website or landing using the API."
             }
         ]
     },
