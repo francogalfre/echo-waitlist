@@ -2,7 +2,7 @@
     "hero": {
         "badge": "Early access",
         "title_success": "Ya estás dentro",
-        "title": "Recolectá feedback de usuarios,\nmejorá tu producto",
+        "title": "Recolectá feedback de users,\nmejorá tu producto",
         "description_success": "Listo. Te avisamos cuando tu cuenta esté lista.",
         "description": "Recolectá, analizá y mostrá feedback de usuarios. API, widget o forms. Potenciado por IA."
     },
