@@ -1,13 +1,13 @@
 {
     "hero": {
-        "badge": "Próximamente",
+        "badge": "Early access",
         "title_success": "Ya estás dentro",
-        "title": "Tu usuarios te están hablando. ¿Los estás escuchando?",
-        "description_success": "Listo. Te avisamos cuando Echo esté listo para ti.",
-        "description": "Recolecta feedback, descubrí qué quieren tus usuarios y tomá mejores decisiones. Todo con una sola API, potenciada por IA."
+        "title": "Recolectá feedback. Entendé a tus usuarios. Construí mejores productos.",
+        "description_success": "Listo. Te avisamos cuando tu cuenta esté lista.",
+        "description": "La infraestructura abierta de feedback para developers. Recolectá desde cualquier lugar, analizá con IA, mostrá en todos lados. Entre Google Forms y Canny — por fin, el punto medio."
     },
     "form": {
-        "email_placeholder": "Tu email",
+        "email_placeholder": "tu@email.com",
         "name_placeholder": "Tu nombre (opcional)",
         "continue": "Quiero acceso",
         "join_waitlist": "Unirme a la lista",
@@ -22,31 +22,31 @@
     },
     "people": {
         "join": "Unite a",
-        "others": "ya están en la lista"
+        "others": "developers en la lista"
     },
     "faq": {
         "title": "Preguntas frecuentes",
         "description": "Resolvé tus dudas antes de sumarte.",
         "items": [
             {
-                "question": "¿Qué hace Echo?",
-                "answer": "Echo recolecta feedback de tus usuarios en un solo lugar. Lo analiza con IA para detectar tendencias, sentiment y temas clave. Vos solo leés los resúmenes y tomás decisiones."
+                "question": "¿Qué es Echo?",
+                "answer": "Echo es infraestructura de feedback para developers. Recolectá feedback de tu producto — vía API, widget o formularios — y dejá que la IA te diga qué está pasando. Sin fricción."
             },
             {
-                "question": "¿Cómo se integra?",
-                "answer": "Podés usar nuestro widget (una línea de código), crear páginas de feedback dedicadas, o conectar tu producto directamente con nuestra API. Elegí lo que te sirva."
+                "question": "¿Cómo funciona la integración?",
+                "answer": "Podés usar un widget embedido (una línea de código), crear páginas de feedback dedicadas, o conectarte directamente con nuestra API. Elegí lo que te sirva para tu stack."
             },
             {
                 "question": "¿Qué tan bueno es el análisis con IA?",
-                "answer": "La IA no solo resume — detecta patrones que vos no ves. Sentiment, bugs recurrentes, feature requests, todo categorizado y priorizado automáticamente."
+                "answer": "La IA analiza sentiment, detecta bugs recurrentes, feature requests y tendencias. Todo categorizado y priorizado. Vos solo leés el resumen y tomás decisiones."
             },
             {
                 "question": "¿Cuándo sale?",
-                "answer": "Estamos por lanzar la beta. Al estar en la lista, sos de los primeros en acceder."
+                "answer": "Estamos por abrir la beta. Al estar en la lista, sos de los primeros en acceder."
             },
             {
-                "question": "¿Cuánto cuesta?",
-                "answer": "Hay un plan gratuito para arrancar. Los planes premium desbloquean más volumen y funciones de IA avanzadas."
+                "question": "¿Es gratis?",
+                "answer": "Sí. Hay un plan gratuito con 1 proyecto y 100 feedbacks por mes. Los planes premium desbloquean más volumen, AI summaries semanales y custom domains."
             }
         ]
     },
@@ -54,8 +54,8 @@
         "copyright": "© {year} Echo. Todos los derechos reservados."
     },
     "seo": {
-        "title": "Echo — Feedback intelligence para productos digitales",
-        "description": "Recolectá, analizá y actuá sobre el feedback de tus usuarios. API, widget y dashboard con IA. Unite a la lista de espera.",
-        "keywords": "feedback, user feedback, feedback widget, feedback API, AI analytics, user insights, product feedback, echo"
+        "title": "Echo — Feedback infrastructure para developers",
+        "description": "Recolectá feedback de usuarios via API, widget o formularios. Análisis de sentiment con IA. La alternativa abierta a Canny.",
+        "keywords": "feedback, user feedback, feedback widget, feedback API, AI analytics, user insights, product feedback, echo, canny alternative"
     }
 }

@@ -1,9 +1,9 @@
 export const site = {
     name: "Echo",
     url: "https://echo-waitlist.vercel.app",
-    title: "Echo — Feedback intelligence para productos digitales",
+    title: "Echo — Feedback infrastructure for developers",
     description:
-        "Recolectá, analizá y actuá sobre el feedback de tus usuarios. API, widget y dashboard con IA. Unite a la lista de espera.",
+        "Collect user feedback via API, widget or forms. AI-powered sentiment analysis and insights. The open alternative to Canny.",
     ogImage: "/opengraph-image.png",
     twitterImage: "/twitter-image.png",
 } as const;
