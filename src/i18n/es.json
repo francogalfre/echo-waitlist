@@ -1,63 +1,61 @@
 {
     "hero": {
-        "badge": "Disponible a principios de {year}",
-        "title_success": "Ya estás en la lista de espera",
-        "title": "Acceso anticipado",
-        "description_success": "Has asegurado tu lugar. Te avisaremos cuando sea tu turno para sumarte.",
-        "description": "Sé de los primeros en experimentar la recolección inteligente de feedback. Únete a la lista de espera y sé el primero en enterarte cuando lancemos."
+        "badge": "Próximamente",
+        "title_success": "Ya estás dentro",
+        "title": "Tu usuarios te están hablando. ¿Los estás escuchando?",
+        "description_success": "Listo. Te avisamos cuando Echo esté listo para ti.",
+        "description": "Recolecta feedback, descubrí qué quieren tus usuarios y tomá mejores decisiones. Todo con una sola API, potenciada por IA."
     },
     "form": {
-        "email_placeholder": "Email",
-        "name_placeholder": "Nombre (opcional)",
-        "continue": "Continuar",
+        "email_placeholder": "Tu email",
+        "name_placeholder": "Tu nombre (opcional)",
+        "continue": "Quiero acceso",
         "join_waitlist": "Unirme a la lista",
         "joining": "Uniendo...",
-        "share_title": "Comparte tu link para saltar la fila",
+        "share_title": "Compartí tu link para saltar la fila",
         "copy": "Copiar",
-        "join_another": "Unir con otro email",
-        "error_email": "Por favor ingresa un email válido",
-        "error_rate": "Demasiados intentos. Intenta más tarde.",
-        "error_generic": "Algo salió mal. Intenta de nuevo.",
-        "success_toast": "¡Estás en la lista de espera!"
+        "join_another": "Usar otro email",
+        "error_email": "Ingresá un email válido",
+        "error_rate": "Demasiados intentos. Esperá un momento.",
+        "error_generic": "Algo falló. Intentá de nuevo.",
+        "success_toast": "¡Estás en la lista!"
     },
     "people": {
-        "join": "Únete a",
-        "others": "otros en la lista de espera"
+        "join": "Unite a",
+        "others": "ya están en la lista"
     },
     "faq": {
         "title": "Preguntas frecuentes",
-        "description": "Todo lo que necesitas saber sobre Echo. Encuentra respuestas a las preguntas más comunes.",
+        "description": "Resolvé tus dudas antes de sumarte.",
         "items": [
             {
-                "question": "¿Qué es Echo?",
-                "answer": "Echo es una plataforma que te permite recolectar, analizar y mostrar feedback de usuarios con una sola API. Crea páginas de feedback, utiliza nuestro widget o integra nuestra API directamente en tu producto."
+                "question": "¿Qué hace Echo?",
+                "answer": "Echo recolecta feedback de tus usuarios en un solo lugar. Lo analiza con IA para detectar tendencias, sentiment y temas clave. Vos solo leés los resúmenes y tomás decisiones."
             },
             {
-                "question": "¿Cómo funciona el widget de feedback?",
-                "answer": "El widget de Echo se integra fácilmente en tu sitio web o aplicación. Los usuarios pueden dejar feedback directamente desde tu producto, y tú puedes gestionar todo desde un solo dashboard."
+                "question": "¿Cómo se integra?",
+                "answer": "Podés usar nuestro widget (una línea de código), crear páginas de feedback dedicadas, o conectar tu producto directamente con nuestra API. Elegí lo que te sirva."
             },
             {
-                "question": "¿Qué tipo de insights genera la IA?",
-                "answer": "Nuestra IA analiza automáticamente el feedback para detectar tendencias, sentiment, temas recurrentes y insights accionables. Obtienes resúmenes automáticos que te ayudan a entender qué quieren tus usuarios."
+                "question": "¿Qué tan bueno es el análisis con IA?",
+                "answer": "La IA no solo resume — detecta patrones que vos no ves. Sentiment, bugs recurrentes, feature requests, todo categorizado y priorizado automáticamente."
             },
             {
-                "question": "¿Cuándo estará disponible Echo?",
-                "answer": "Estamos trabajando duro para lanzar Echo pronto. Al unirte a la lista de espera, serás de los primeros en acceder cuando esté disponible."
+                "question": "¿Cuándo sale?",
+                "answer": "Estamos por lanzar la beta. Al estar en la lista, sos de los primeros en acceder."
             },
             {
-                "question": "¿Es gratis?",
-                "answer": "Sí, Echo tendrá un plan gratuito. También ofreceremos planes premium con funcionalidades avanzadas de IA y mayor volumen de feedback."
+                "question": "¿Cuánto cuesta?",
+                "answer": "Hay un plan gratuito para arrancar. Los planes premium desbloquean más volumen y funciones de IA avanzadas."
             }
         ]
     },
     "footer": {
-        "copyright": "© {year} Echo. Todos los derechos reservados.",
-        "privacy": "Privacidad",
-        "terms": "Términos"
+        "copyright": "© {year} Echo. Todos los derechos reservados."
     },
     "seo": {
-        "title": "Echo | Lista de espera - Recolecta y analiza feedback con IA",
-        "description": "Echo es la plataforma inteligente para recolectar, analizar y mostrar feedback de usuarios. Crea páginas de feedback, utiliza nuestro widget o integra nuestra API. Potenciado por IA para detectar insights automáticos.",
+        "title": "Echo — Feedback intelligence para productos digitales",
+        "description": "Recolectá, analizá y actuá sobre el feedback de tus usuarios. API, widget y dashboard con IA. Unite a la lista de espera.",
         "keywords": "feedback, user feedback, feedback widget, feedback API, AI analytics, user insights, product feedback, echo"
     }
 }
