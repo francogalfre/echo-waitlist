@@ -54,10 +54,10 @@ export default function Hero({ waitlistPeople }: { waitlistPeople: number }) {
                 variants={fadeUp}
                 custom={1}
             >
-                <h1 className="text-4xl md:text-5xl font-semibold text-foreground">
+                <h1 className="text-4xl md:text-5xl font-semibold text-foreground text-center w-full">
                     {isSuccess ? t("hero.title_success") : t("hero.title")}
                 </h1>
-                <p className="text-base text-md text-muted-foreground text-center max-w-lg">
+                <p className="text-base text-md text-muted-foreground text-center align-middle justify-center max-w-lg">
                     {isSuccess
                         ? t("hero.description_success")
                         : t("hero.description")}
