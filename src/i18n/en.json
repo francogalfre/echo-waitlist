@@ -2,9 +2,9 @@
     "hero": {
         "badge": "Early access",
         "title_success": "You're in",
-        "title": "Feedback infrastructure for developers",
+        "title": "Collect feedback,\nimprove your product",
         "description_success": "Done. We'll let you know when your account is ready.",
-        "description": "Collect, analyze, and showcase user feedback. API, widget, or forms. Powered by AI."
+        "description": "Start listening to your users. Forms, widget, AI insights. All in one place."
     },
     "form": {
         "email_placeholder": "you@example.com",
