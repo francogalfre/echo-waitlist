@@ -27,7 +27,7 @@ export default function Hero({ waitlistPeople }: { waitlistPeople: number }) {
     const { t } = useLanguage();
 
     return (
-        <div className="flex flex-col items-center justify-center gap-6 pb-32 min-h-screen px-4">
+        <div className="flex flex-col items-center justify-center gap-2 pb-32 min-h-screen px-4">
             <motion.div
                 className="flex flex-col items-center justify-center gap-6 mb-6"
                 initial="hidden"
@@ -48,16 +48,16 @@ export default function Hero({ waitlistPeople }: { waitlistPeople: number }) {
             </motion.div>
 
             <motion.div
-                className="flex flex-col items-center justify-center gap-2 max-w-2xl"
+                className="flex flex-col items-center justify-center gap-4 pb-4 max-w-2xl"
                 initial="hidden"
                 animate="visible"
                 variants={fadeUp}
                 custom={1}
             >
-                <h1 className="text-4xl md:text-5xl font-bold text-foreground">
+                <h1 className="text-4xl md:text-5xl font-semibold text-foreground">
                     {isSuccess ? t("hero.title_success") : t("hero.title")}
                 </h1>
-                <p className="text-base text-muted-foreground text-center max-w-md">
+                <p className="text-base text-md text-muted-foreground text-center max-w-lg">
                     {isSuccess
                         ? t("hero.description_success")
                         : t("hero.description")}

@@ -2,6 +2,8 @@ import { Toaster } from "sonner";
 
 import "./globals.css";
 import Header from "~/components/landing/header";
+import { Background } from "~/components/background";
+
 import SmoothScroll from "~/providers/smooth-scroll";
 import { LanguageProvider } from "~/providers/language-provider";
 import { fontClasses } from "./lib/fonts";
@@ -22,6 +24,7 @@ export default function RootLayout({
                         <Header />
                         <Toaster />
                         {children}
+                        <Background />
                     </SmoothScroll>
                 </LanguageProvider>
             </body>

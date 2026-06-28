@@ -19,7 +19,9 @@ export function LandingPage({ waitlistPeople }: { waitlistPeople: number }) {
                 manualstart={true}
             />
             <Hero waitlistPeople={waitlistPeople} />
+
             {/* <Demo videoSrc="/demo.mp4" thumbnailSrc="/demo.png" /> */}
+
             <Faq />
             <Footer />
         </main>

@@ -183,7 +183,7 @@ export default function WaitlistForm({ onSuccessChange }: FormProps) {
                                 />
                                 <button
                                     type="submit"
-                                    className="absolute right-0 top-0 bottom-0 bg-accent text-accent-foreground px-5 py-1 m-2 rounded-[12px] hover:opacity-90 disabled:opacity-50"
+                                    className="absolute text-sm right-0 top-0 bottom-0 bg-accent text-accent-foreground px-5 py-1 m-2 rounded-[12px] hover:opacity-90 disabled:opacity-50"
                                     disabled={loading}
                                 >
                                     {t("form.continue")}
