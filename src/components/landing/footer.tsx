@@ -10,7 +10,7 @@ export default function Footer() {
 
 	return (
 		<motion.footer
-			className="flex flex-col justify-center items-center gap-4 pb-8 pt-16 px-4"
+			className="flex flex-col justify-center items-center gap-4 pb-8 pt-16 px-5 sm:px-6 md:px-8"
 			initial={{ opacity: 0 }}
 			whileInView={{ opacity: 1 }}
 			viewport={{ once: true }}
@@ -21,7 +21,7 @@ export default function Footer() {
 					href="https://linkedin.com/in/francogalfre"
 					target="_blank"
 					rel="noopener noreferrer"
-					className="text-sm text-muted-foreground hover:text-foreground transition-colors duration-300"
+					className="text-xs sm:text-sm text-muted-foreground hover:text-foreground transition-colors duration-300"
 				>
 					LinkedIn
 				</a>
@@ -30,13 +30,13 @@ export default function Footer() {
 					href="https://x.com/francogalfredev"
 					target="_blank"
 					rel="noopener noreferrer"
-					className="text-sm text-muted-foreground hover:text-foreground transition-colors duration-300"
+					className="text-xs sm:text-sm text-muted-foreground hover:text-foreground transition-colors duration-300"
 				>
 					X / Twitter
 				</a>
 			</div>
 			<div>
-				<p className="text-sm text-muted-foreground">
+				<p className="text-xs sm:text-sm text-muted-foreground">
 					{t("footer.copyright", { year: String(year) })}
 				</p>
 			</div>

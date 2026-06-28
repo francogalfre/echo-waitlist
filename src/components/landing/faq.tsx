@@ -25,7 +25,7 @@ export default function Faq() {
 
 	return (
 		<motion.div
-			className="flex flex-col items-center justify-center gap-6 py-10"
+			className="flex flex-col items-center justify-center gap-6 py-10 px-5 sm:px-6 md:px-8"
 			initial="hidden"
 			whileInView="visible"
 			viewport={{ once: true, margin: "-100px" }}
@@ -34,10 +34,10 @@ export default function Faq() {
 			}}
 		>
 			<motion.div className="flex flex-col items-center justify-center gap-2 max-w-md" variants={fadeUp}>
-				<h2 className="sm:text-3xl text-2xl font-semibold text-foreground">
+				<h2 className="text-xl sm:text-2xl md:text-3xl font-semibold text-foreground">
 					{t("faq.title")}
 				</h2>
-				<p className="sm:text-base text-sm text-muted-foreground text-center">
+				<p className="text-xs sm:text-sm md:text-base text-muted-foreground text-center">
 					{t("faq.description")}
 				</p>
 			</motion.div>

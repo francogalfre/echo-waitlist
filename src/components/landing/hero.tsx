@@ -26,7 +26,7 @@ export default function Hero({ waitlistPeople }: { waitlistPeople: number }) {
     const { t } = useLanguage();
 
     return (
-        <div className="flex flex-col items-center justify-center gap-2 min-h-screen pb-12 px-4">
+        <div className="flex flex-col items-center justify-center gap-2 min-h-screen pb-12 px-5 sm:px-6 md:px-8">
             <motion.div
                 className="flex flex-col items-center justify-center gap-6 mb-8"
                 initial="hidden"
@@ -45,10 +45,10 @@ export default function Hero({ waitlistPeople }: { waitlistPeople: number }) {
                 variants={fadeUp}
                 custom={1}
             >
-                <h1 className="text-4xl md:text-5xl font-medium text-foreground text-center w-full whitespace-pre-line">
+                <h1 className="text-3xl md:text-5xl font-medium text-foreground text-center w-full whitespace-pre-line">
                     {isSuccess ? t("hero.title_success") : t("hero.title")}
                 </h1>
-                <p className="text-base text-md text-muted-foreground text-center align-middle justify-center max-w-lg">
+                <p className="text-sm md:text-base text-muted-foreground text-center align-middle justify-center max-w-lg">
                     {isSuccess
                         ? t("hero.description_success")
                         : t("hero.description")}
