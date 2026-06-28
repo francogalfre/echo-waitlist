@@ -4,7 +4,7 @@
         "title_success": "You're in",
         "title": "Collect feedback,\nimprove your product",
         "description_success": "Done. We'll let you know when your account is ready.",
-        "description": "Start listening to your users today. Collect feedback with forms, widget, or API. Analyze everything with AI insights. Your product deserves to grow."
+        "description": "Start listening to your users today. Collect feedback with forms, widget, or API. Analyze everything with AI insights."
     },
     "form": {
         "email_placeholder": "you@example.com",
@@ -22,7 +22,7 @@
     },
     "people": {
         "join": "Join",
-        "others": "developers on the list"
+        "others": "people on the list"
     },
     "faq": {
         "title": "Frequently Asked Questions",

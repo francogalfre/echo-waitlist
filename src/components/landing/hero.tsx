@@ -57,7 +57,7 @@ export default function Hero({ waitlistPeople }: { waitlistPeople: number }) {
             </motion.div>
 
             <motion.div
-                className="flex flex-col items-center justify-center gap-2 w-full max-w-md"
+                className="flex flex-col items-center justify-center pt-4 gap-2 w-full max-w-md"
                 initial="hidden"
                 animate="visible"
                 variants={fadeUp}

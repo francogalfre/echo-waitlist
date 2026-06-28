@@ -4,7 +4,7 @@
         "title_success": "Ya estás dentro",
         "title": "Recolectá feedback de users,\nmejorá tu producto",
         "description_success": "Listo. Te avisamos cuando tu cuenta esté lista.",
-        "description": "Empezá a escuchar a tus usuarios hoy. Recolectá feedback con forms, widget o API. Analizá todo con insights de IA. Tu producto merece crecer."
+        "description": "Empezá a escuchar a tus usuarios hoy. Recolectá feedback con forms, widget o API. Analizá todo con insights de IA."
     },
     "form": {
         "email_placeholder": "tu@email.com",
@@ -22,7 +22,7 @@
     },
     "people": {
         "join": "Unite a",
-        "others": "developers en la lista"
+        "others": "personas en la lista"
     },
     "faq": {
         "title": "Preguntas frecuentes",
