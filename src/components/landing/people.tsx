@@ -20,10 +20,10 @@ export default function People({
     const { t } = useLanguage();
 
     const avatars = [
-        { id: "avatar1", src: "/avatars/avatar1.avif" },
-        { id: "avatar2", src: "/avatars/avatar2.avif" },
-        { id: "avatar3", src: "/avatars/avatar3.avif" },
-        { id: "avatar4", src: "/avatars/avatar4.avif" },
+        { id: "avatar1", src: "/avatars/avatar1.jpg" },
+        { id: "avatar2", src: "/avatars/avatar2.jpg" },
+        { id: "avatar3", src: "/avatars/avatar3.jpg" },
+        { id: "avatar4", src: "/avatars/avatar4.jpg" },
     ];
 
     useEffect(() => {

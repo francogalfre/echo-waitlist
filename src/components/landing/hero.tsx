@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useState } from "react";
 import { motion } from "motion/react";
 
 import People from "./people";
@@ -22,12 +22,11 @@ const fadeUp = {
 };
 
 export default function Hero({ waitlistPeople }: { waitlistPeople: number }) {
-    const year = useMemo(() => new Date().getFullYear(), []);
     const [isSuccess, setIsSuccess] = useState(false);
     const { t } = useLanguage();
 
     return (
-        <div className="flex flex-col items-center justify-center gap-2 pb-32 min-h-screen px-4">
+        <div className="flex flex-col items-center justify-center gap-2 min-h-screen pb-12 px-4">
             <motion.div
                 className="flex flex-col items-center justify-center gap-6 mb-8"
                 initial="hidden"
