@@ -20,17 +20,16 @@ const fadeUp = {
 export default function Features() {
     const { t, tArray } = useLanguage();
     const features = tArray("features.items") as Array<{
-        icon: string;
         title: string;
         description: string;
     }>;
 
     return (
         <section>
-            <div className="py-16 sm:py-20 md:py-24">
+            <div className="py-10 sm:py-12 md:py-16">
                 <div className="mx-auto w-full max-w-3xl px-5 sm:px-6 md:px-8">
                     <motion.h2
-                        className="text-foreground text-balance text-2xl sm:text-3xl md:text-4xl font-semibold"
+                        className="text-xl sm:text-2xl md:text-3xl font-semibold text-foreground"
                         initial="hidden"
                         whileInView="visible"
                         viewport={{ once: true }}
@@ -42,7 +41,20 @@ export default function Features() {
                     </motion.h2>
 
                     <motion.div
-                        className="@container mt-10 sm:mt-12 space-y-8 sm:space-y-10 md:space-y-12"
+                        className="mt-8 sm:mt-10 md:mt-12 rounded-2xl border border-border bg-secondary/50 overflow-hidden"
+                        initial="hidden"
+                        whileInView="visible"
+                        viewport={{ once: true }}
+                        variants={fadeUp}
+                        custom={1}
+                    >
+                        <div className="aspect-video w-full flex items-center justify-center text-muted-foreground text-sm">
+                            Imagen próximamente
+                        </div>
+                    </motion.div>
+
+                    <motion.div
+                        className="mt-8 sm:mt-10 md:mt-12 grid grid-cols-1 sm:grid-cols-3 gap-6 sm:gap-8"
                         initial="hidden"
                         whileInView="visible"
                         viewport={{ once: true, margin: "-100px" }}
@@ -55,12 +67,12 @@ export default function Features() {
                                 key={feature.title}
                                 className="space-y-2"
                                 variants={fadeUp}
-                                custom={index + 1}
+                                custom={index + 2}
                             >
-                                <h3 className="text-lg sm:text-xl font-medium text-foreground">
+                                <h3 className="text-base sm:text-lg font-medium text-foreground">
                                     {feature.title}
                                 </h3>
-                                <p className="text-sm sm:text-base text-muted-foreground">
+                                <p className="text-sm text-muted-foreground">
                                     {feature.description}
                                 </p>
                             </motion.div>
