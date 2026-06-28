@@ -25,22 +25,20 @@
         "others": "people on the list"
     },
     "features": {
-        "title": "Everything you need",
+        "subtitle": "Everything you need to",
+        "title_suffix": "listen to your users.",
         "items": [
             {
-                "icon": "collect",
-                "title": "Collect",
-                "description": "Forms, embeddable widget, or API. Choose how you reach your users."
+                "title": "Collect feedback from everywhere",
+                "description": "Embedded forms, floating widget, or direct API. Choose how you reach your users without changing your stack."
             },
             {
-                "icon": "analyze",
-                "title": "Analyze",
-                "description": "AI that detects sentiment, recurring bugs, and feature requests. All categorized."
+                "title": "AI does the heavy lifting",
+                "description": "Sentiment analysis, recurring bug detection, and feature requests. All categorized and prioritized automatically."
             },
             {
-                "icon": "showcase",
-                "title": "Showcase",
-                "description": "Share public feedback boards. Your users see that you listen."
+                "title": "Show them you listen",
+                "description": "Public feedback boards your users can see. Transparency that builds trust and engagement."
             }
         ]
     },

@@ -25,22 +25,20 @@
         "others": "personas en la lista"
     },
     "features": {
-        "title": "Todo lo que necesitás",
+        "subtitle": "Todo lo que necesitás para",
+        "title_suffix": "escuchar a tus usuarios.",
         "items": [
             {
-                "icon": "collect",
-                "title": "Recolectá",
-                "description": "Forms, widget embeddable o API. Elegí cómo llegás a tus usuarios."
+                "title": "Recolectá feedback de cualquier lado",
+                "description": "Forms embebidos, widget flotante o API directa. Elegí cómo llegás a tus usuarios sin cambiar tu stack."
             },
             {
-                "icon": "analyze",
-                "title": "Analizá",
-                "description": "IA que detecta sentimiento, bugs recurrentes y feature requests. Todo categorizado."
+                "title": "La IA hace el trabajo pesado",
+                "description": "Sentiment analysis, detección de bugs recurrentes y feature requests. Todo categorizado y priorizado automáticamente."
             },
             {
-                "icon": "showcase",
-                "title": "Mostrá",
-                "description": "Compartí boards públicos de feedback. Tus usuarios ven que los escuchás."
+                "title": "Mostrá que los escuchás",
+                "description": "Boards públicos de feedback que tus usuarios pueden ver. Transparencia que genera confianza y engagement."
             }
         ]
     },
