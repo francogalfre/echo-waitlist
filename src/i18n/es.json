@@ -1,9 +1,9 @@
 {
     "hero": {
         "badge": "Early access",
-        "title_success": "Ya estás dentro",
+        "title_success": "Ya estás adentro",
         "title": "Recolectá feedback de users,\nmejorá tu producto",
-        "description_success": "Listo. Te avisamos cuando tu cuenta esté lista.",
+        "description_success": "Muchas gracias por sumarte. Te avisamos cuando Echo esté disponible.",
         "description": "Empezá a escuchar a tus usuarios hoy. Recolectá feedback con forms, widget o API. Analizá todo con insights de IA."
     },
     "form": {
